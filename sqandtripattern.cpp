@@ -113,7 +113,6 @@ int main(){
     cin >> n;
 
     int i = 1;
-    int val = 1;
     int k=1;
     while (i<=n)
     {
@@ -128,7 +127,6 @@ int main(){
         {
             cout<<j;
             j++;
-            val++;
         }
         cout << endl;
         i += 1;
@@ -186,5 +184,93 @@ int main(){
     }*/
 
 
-    
+    /*int n;
+    cin >> n;
+
+    int i = 1;
+    while (i<=n)
+    {
+        int space = 1;
+        while (space<=n-i)
+        {
+            cout << " ";
+            space += 1;
+        }
+        int j = 1;
+        while (j<=i)
+        {
+            cout<<j;
+            j++;
+        }
+        j = i-1;
+        while (j>=1)
+        {
+            cout << j;
+            j -= 1;
+        }   
+        cout << endl;
+        i += 1;
+    }*/
+
+
+    /*int n;
+    cin >> n;
+
+    int i = 1;
+    while (i<=n)
+    {
+        int space = 1;
+        while (space<=n-i)
+        {
+            cout << " ";
+            space += 1;
+        }
+        int j = 1;
+        while (j<=i)
+        {
+            cout<<i;
+            j++;
+        }
+        j = i-1;
+        while (j>=1)
+        {
+            cout << i;
+            j -= 1;
+        }   
+        cout << endl;
+        i += 1;
+    }*/
+
+    /*This code is incomplete!!!*/
+    /*int n;
+    cin >> n;
+
+    int i = 1;
+    int k =1;
+    while (i<=n)
+    {
+        int space = 1;
+        while (space<=n-i)
+        {
+            cout << " ";
+            space += 1;
+        }
+        int j = 1;
+        while (j<=i)
+        {
+            cout<<k;
+            j++;
+            k++;
+        }
+        j = i-1;
+        while (j>=1)
+        {
+            cout << 2*i-2;
+            j -= 1;
+            k --;
+        }   
+        cout << endl;
+        i += 1;
+    }*/
+
 }
