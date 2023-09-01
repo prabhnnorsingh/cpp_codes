@@ -107,4 +107,31 @@ int main(){
         i +=1;   
     }*/
 
+
+
+    int n;
+    cin >> n;
+
+    int i = 1;
+    int val = 1;
+    int k=1;
+    while (i<=n)
+    {
+        int space = 1;
+        while (space<=n-i)
+        {
+            cout << " ";
+            space += 1;
+        }
+        int j = 1;
+        while (j<=i)
+        {
+            cout<<j;
+            j++;
+            val++;
+        }
+        cout << endl;
+        i += 1;
+    }
+    
 }
