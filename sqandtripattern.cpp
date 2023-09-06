@@ -274,34 +274,46 @@ int main(){
 
 
 
-    int n;
-    cin>>n;
-    int i=1,j;
-    while(i<=n){
-        int space=1;
-        while(space<=n-i){
+    /*int num;
+    cin>>num;
+    int n=(num+1)/2;
+    int i=0;
+    while(i<n)
+    {
+        int j=0;
+        while(j<n-i-1)
+        {
             cout<<" ";
-        space++;
-        }
-        j=1;
-        int k=i;
-        while(j<=i){
-            cout<<k;
-            k++;
             j++;
-            
         }
-        int j=i-1;
-        k=2*i-2; 
-        while(j>=1){
-            cout<<k;
-            k--;
-            j--;
+        j=0;
+        while(j<2*i+1)
+        {
+            cout<<"*";
+        j++;
         }
-        cout<<endl;
         i++;
+        cout<<endl;
     }
-
-
+    i=0;
+    while(i<n-1 )
+    {
+        int j=0;
+        while(j<i+1)
+        {
+            cout<<" ";
+            j++;
+        }
+        j=num-2-2*i;
+        while(j>0)
+        {
+            cout<<"*";
+        j--;
+        }
+        i++;
+        cout<<endl;
+    }
+    return 0;*/
+ 
 
 }

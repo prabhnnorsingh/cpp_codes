@@ -19,4 +19,4 @@ int main(){
     }
     cout << "The decimal number is - " << ans;
     
-}
+} 
