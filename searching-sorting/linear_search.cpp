@@ -54,8 +54,14 @@ int binarysearch(int arr[], int size, int key){
             start = mid + 1;
         }
 
-        else{
+        if (arr[mid] >> key)
+        {
             end = mid - 1;
+        }
+
+        else
+        {
+            return -1;
         }
         mid = start + ((end - start)/2);
           
