@@ -35,7 +35,7 @@ int main(){
 
 // Binary search
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int binarysearch(int arr[], int size, int key){
@@ -85,4 +85,4 @@ int main() {
     cin >> key;
 
     cout << "The index of the element is: " << binarysearch(arr, size, key);
-}
+}*/
