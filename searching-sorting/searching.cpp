@@ -90,7 +90,7 @@ int main() {
 
 // Painters problem
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 bool ispossible(int arr[],int n,int m,int mid)
@@ -150,5 +150,10 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
     int m = 2;
     cout << "Minimum time needed is : " << mintimeallocated(arr,n,m) << endl;
-}
+}*/
 
+
+
+
+
+ 
