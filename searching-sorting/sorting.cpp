@@ -3,11 +3,11 @@
  //Selection Sort
 
   
- #include <iostream>
+/* #include <iostream>
  #include <bits/stdc++.h>
  using namespace std;
 // Function to sort array
- int selectionsort(int arr[], int n)
+ void selectionsort(int arr[], int n)
  {
     for (int i = 0; i < n-1; i++)
     {
@@ -48,4 +48,79 @@ int main()
     cout << "Sorted array: \n";
     printArray(arr, n);
     return 0;
+}*/
+
+
+
+// Bubble Sort
+
+/*#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+
+void bubbleSort(int arr[], int n)
+{
+	int i, j;
+	bool swapped;
+	for (i = 1; i < n; i++) {
+		swapped = false;
+		for (j = 0; j < n - i; j++) {
+			if (arr[j] > arr[j + 1]) {
+				swap(arr[j], arr[j + 1]);
+				swapped = true;
+			}
+		}
+
+		if (swapped == false)
+			break;
+	}
 }
+
+void printArray(int arr[], int size)
+{
+	int i;
+	for (i = 0; i < size; i++)
+		cout << " " << arr[i];
+}
+
+
+int main()
+{
+	int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
+	int N = sizeof(arr) / sizeof(arr[0]);
+	bubbleSort(arr, N);
+	cout << "Sorted array: \n";
+	printArray(arr, N);
+	return 0;
+}*/
+
+
+// Insertion Sort
+
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+void insertionsort(int arr[], int N){
+    
+
+}
+
+void printArray(int arr[], int size)
+{
+	int i;
+	for (i = 0; i < size; i++)
+		cout << " " << arr[i];
+}
+
+int main(){
+    int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
+	int N = sizeof(arr) / sizeof(arr[0]);
+	insertionsort(arr, N);
+	cout << "Sorted array: \n";
+	printArray(arr, N);
+	return 0;
+}
+
