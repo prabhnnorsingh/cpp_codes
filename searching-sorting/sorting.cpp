@@ -98,12 +98,32 @@ int main()
 
 // Insertion Sort
 
-
+/*
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 
 void insertionsort(int arr[], int N){
+    for (int i = 1; i < N; i++)
+    {
+        int temp = arr[i];
+        int j = i-1;
+        for (; j >= 0; j--)
+        {
+            if (arr[j] > temp)
+            {
+                arr[j+1] = arr[j];
+            }
+            else
+            {
+                break;
+            }
+            
+            
+        }
+        arr[j+1] = temp;
+        
+    }
     
 
 }
@@ -122,5 +142,12 @@ int main(){
 	cout << "Sorted array: \n";
 	printArray(arr, N);
 	return 0;
-}
+}*/
+
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+
 
