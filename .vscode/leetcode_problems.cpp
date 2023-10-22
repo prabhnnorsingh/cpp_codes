@@ -104,3 +104,33 @@ int main(){
 
 
 // Rotating arrays
+
+/*void printarray(int arr2[], int n){
+    for (int i = 0; i < n; i++)
+    {
+        cout << " " << arr2[i];
+    }
+    
+} 
+int main()
+{
+    int arr[]={1,2,3,4,5};
+    int arr2[5]={};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int k =2;
+    for (int i = 0; i < n; i++)
+    {
+        arr2[(i+k)%n] = arr[i];
+    }
+    
+    
+    
+    printarray(arr2,n);
+}*/
+
+
+// check if array is sorted and rotated
+
+int main(){
+    
+}
