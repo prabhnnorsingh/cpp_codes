@@ -161,7 +161,53 @@ int main()
 
 
 // Sum of 2 arrays
-
+void sumofarrays(int arr1[], int arr2[], int arr3[], int n1, int n2){
+    int sum = 0;
+    int carry = 0;
+    int i = n1-1, j = n2-1, k = n1-1;
+    while(i >= 0 && j >= 0) {
+        sum = arr1[i] + arr2[j] + carry;
+        arr3[k] = (sum % 10);
+    
+        carry = sum / 10;
+    
+        k--;
+        i--;
+        j--;
+    }
+    while(i >= 0) {
+        sum = arr1[i] + carry;
+        arr3[k] = (sum % 10);
+    
+        carry = sum / 10;
+    
+        k--;
+        i--;
+    }
+    while(j >= 0) {
+        sum = arr2[j] + carry;
+        arr3[k] = (sum % 10);
+    
+        carry = sum / 10;
+    
+        k--;
+        j--;
+    }
+}
+void printarray(int arr3[], int n1){
+    for (int i = 0; i < n1; i++)
+    {
+        cout << " " << arr3[i];
+    }
+    
+} 
 int main(){
-     
+    int arr1[] = {1,2,3,4,5};
+    int arr2[] = {5,6,7,8};
+    int n1 = sizeof(arr1) / sizeof(arr1[0]);
+    int n2 = sizeof(arr2) / sizeof(arr2[0]);
+    int arr3[n1] = {};
+    sumofarrays(arr1,arr2,arr3,n1,n2);
+    printarray(arr3,n1);
+
 }
