@@ -161,7 +161,7 @@ int main()
 
 
 // Sum of 2 arrays
-void sumofarrays(int arr1[], int arr2[], int arr3[], int n1, int n2){
+/*void sumofarrays(int arr1[], int arr2[], int arr3[], int n1, int n2){
     int sum = 0;
     int carry = 0;
     int i = n1-1, j = n2-1, k = n1-1;
@@ -210,4 +210,7 @@ int main(){
     sumofarrays(arr1,arr2,arr3,n1,n2);
     printarray(arr3,n1);
 
-}
+}*/
+
+
+
